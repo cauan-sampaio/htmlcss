@@ -1,0 +1,13 @@
+.inline {
+  display: inline-block; /* respeita a margem de outros componentes */
+  border: 1px solid blue;
+  padding: 30px;
+}
+.border {
+  border: 1px solid red;
+  padding: 15px; /* Elemento não respeita a margem de outros conteúdos */
+}
+div,
+span {
+  border: 1px solid black;
+}

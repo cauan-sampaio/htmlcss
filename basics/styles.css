@@ -21,3 +21,23 @@ p {
 .pink {
   color: pink;
 } elemento com várias classes que pode ter variadas funções*/
+div {
+  background: #aaa;
+  width: 140px; /*largura da caixa */
+  margin: 10px; /* distancia entre caixa e conteudo da pagina*/
+  padding: 30px; /* distancia entre conteudo e caixa */
+  border: 15px solid #111; /* borda da caixa */
+  height: 60px; /* altura da caixa */
+}
+
+body {
+  margin: 0px;
+}
+h1 {
+  background: #8b2929;
+  padding: 10px;
+  width: 80px;
+  border: 15px solid #da188f;
+  color: #aaa;
+  margin: 20px; /* A margin priorizada será a maior */
+}
